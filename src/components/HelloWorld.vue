@@ -1,35 +1,139 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-unit-jest" target="_blank" rel="noopener">unit-jest</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-cypress" target="_blank" rel="noopener">e2e-cypress</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">One</p>
+              <p class="subtitle">Subtitle</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Two</p>
+              <p class="subtitle">Subtitle</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Three</p>
+              <p class="subtitle">Subtitle</p>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Four</p>
+              <p class="subtitle">Subtitle</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="tile is-ancestor">
+          <div class="tile is-vertical is-9">
+            <div class="tile">
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Five</p>
+                  <p class="subtitle">Subtitle</p>
+                  <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+                  </div>
+                </article>
+              </div>
+              <div class="tile is-8 is-vertical">
+                <div class="tile">
+                  <div class="tile is-parent">
+                    <article class="tile is-child box">
+                      <p class="title">Six</p>
+                      <p class="subtitle">Subtitle</p>
+                    </article>
+                  </div>
+                  <div class="tile is-parent">
+                    <article class="tile is-child box">
+                      <p class="title">Seven</p>
+                      <p class="subtitle">Subtitle</p>
+                    </article>
+                  </div>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title">Eight</p>
+                    <p class="subtitle">Subtitle</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="tile">
+              <div class="tile is-8 is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Nine</p>
+                  <p class="subtitle">Subtitle</p>
+                  <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                  </div>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box">
+                  <p class="title">Ten</p>
+                  <p class="subtitle">Subtitle</p>
+                  <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <div class="content">
+                <p class="title">Eleven</p>
+                <p class="subtitle">Subtitle</p>
+                <div class="content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+                  <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="tile is-ancestor">
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Twelve</p>
+              <p class="subtitle">Subtitle</p>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
+              </div>
+            </article>
+          </div>
+          <div class="tile is-parent is-6">
+            <article class="tile is-child box">
+              <p class="title">Thirteen</p>
+              <p class="subtitle">Subtitle</p>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              </div>
+            </article>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box">
+              <p class="title">Fourteen</p>
+              <p class="subtitle">Subtitle</p>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+    
+  
 </template>
 
 <script>
@@ -37,24 +141,19 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  data() {
+    return {
+      checkbox: false,
+      checkboxCustom: "Yes",
+      isFullPage: true
+    };
+  },
+  mounted: function() {
+    const loadingComponent = this.$loading.open({
+      container: this.isFullPage ? null : this.$refs.element.$el
+    });
+    setTimeout(() => loadingComponent.close(), 1 * 1000);
   }
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
