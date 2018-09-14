@@ -1,5 +1,5 @@
 # Vue3 Buefy
-
+![](screencapture-localhost-8081-2018-09-14-15_35_49.png)
 ## Project setup
 ```
 yarn install
